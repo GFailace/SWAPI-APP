@@ -1,0 +1,22 @@
+.card img{
+    width: 90%;
+    height: 250px;
+    margin: 15px auto;
+}
+.card h5, p {
+    text-align: center;
+}
+.card-body a {
+    text-align: center;
+    margin: 0 auto;
+    text-decoration: none;
+    cursor: pointer;
+    color: yellow;
+}
+.card{
+    background: rgba(0,0,0,0.8);
+    border-color: rgba(255,255,255,0.2);
+}
+.card-body {
+    color: #FFF;
+}
