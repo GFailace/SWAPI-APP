@@ -25,3 +25,19 @@ body{
   grid-gap: 10px;
   margin: 20px 10px;
 }
+@media(max-width: 800px){
+  .home{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    margin: 20px 10px;
+  }
+}
+@media(max-width: 500px){
+  .home{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    margin: 20px 10px;
+  }
+}
